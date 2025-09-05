@@ -1,6 +1,11 @@
 /* src/renderer/src/App.css */
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
-/* Basic Reset & Font */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -20,6 +25,7 @@ body {
   border-right: 1px solid #333;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   position: sticky;
   left: 0;
   top: 0;
@@ -42,6 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 250px;
+  justify-content: center;
 }
 
 /* Project List Styling */
